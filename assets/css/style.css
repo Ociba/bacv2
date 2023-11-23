@@ -4410,12 +4410,16 @@ textarea.form-control-lg {
   list-style: none;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: var(--bs-navbar-active-color);
+  color: #000000;
+  font-weight: bolder;
 }
 .navbar-nav .dropdown-menu {
   position: static;
 }
-
+.mine:hover {
+  color:#000000;
+  font-weight: bold;
+}
 .navbar-text {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -4425,6 +4429,7 @@ textarea.form-control-lg {
 .navbar-text a:hover,
 .navbar-text a:focus {
   color: var(--bs-navbar-active-color);
+  
 }
 
 .navbar-collapse {
@@ -4867,9 +4872,9 @@ textarea.form-control-lg {
 .navbar-dark,
 .navbar[data-bs-theme=dark] {
   --bs-navbar-color: var(--bs-white);
-  --bs-navbar-hover-color: #1CB94E !important;
+  --bs-navbar-hover-color: #000000 !important;
   --bs-navbar-disabled-color: rgba(var(--bs-white-rgb), 0.25);
-  --bs-navbar-active-color: #1CB94E !important;
+  --bs-navbar-active-color: #000000 !important;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
